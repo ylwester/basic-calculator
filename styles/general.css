@@ -27,6 +27,14 @@ body {
     grid-gap: 1px;
 }
 
+.calculator-buttons button:active {
+    box-shadow: 0 0 0 black;
+}
+
+.calculator-buttons button:focus {
+    outline: none;
+}
+
 .calculator-buttons > * {
     width: 100%;
     height: 100%;
